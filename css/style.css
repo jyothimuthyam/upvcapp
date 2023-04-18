@@ -1,0 +1,56 @@
+
+  * {
+    box-sizing: border-box;
+  }
+   .banner {
+      background-image: url(../images/Slider1.png);
+      height: 100vh;
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+      background-repeat: no-repeat;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      margin-right: -8px;
+      margin-left: -8px;
+  }
+  
+  .banner h1 {
+      color: #fff;
+      line-height: 55px;
+      font-size: 50px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 50px;
+      width: 25%;
+      position: absolute;
+      top: 8%;
+      right: 8%;
+  }
+  .banner span {
+      color: #0cebf7;
+  }
+  
+  .imageContentStyle {
+    margin-left: 60px;
+    margin-right: 150px;
+    color: #878787;
+    font: 16px Lato,Arial,Tahoma, sans-serif;
+    background-image: url('https://roycewindows.com/wp-content/uploads/2015/12/home_interior2_bg_section.png');
+}
+.contentStyle {
+  margin: 5px;
+  margin-right: 176px;
+  color: #878787;
+  font: 16px Lato,Arial,Tahoma, sans-serif;
+  text-align: left;
+  background-image: url('https://roycewindows.com/wp-content/uploads/2015/12/home_interior2_bg_section.png');
+}
+.benefits {
+    display: flex;
+    justify-content: center;
+}
+  .img{
+    width: 569%;
+    height: 62px;
+   }

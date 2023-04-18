@@ -1,0 +1,78 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.head h1 {
+  font-family: 'Alkatra', cursive;
+  color: #00b7c7;
+  font-weight: 200;
+  font-size: 38px;
+  padding: 20px 50px;
+}
+
+.about-doors img {
+  padding: 30px 100px;
+}
+
+.about-doors{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.content h3 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #00b7c7;
+}
+
+.content {
+  padding: 50px 100px;
+}
+
+.content p {
+  line-height: 30px;
+  color: #878787;
+  font-size: 16px;
+}
+
+.price h4 span {
+  color: #00b7c7;
+  font-size: 32px;
+  padding: 40px 30px 30px;
+  border: 1px dotted #353535;
+  margin: 50px;
+  display: inline-block;
+}
+
+@media (max-width: 700px) {
+  .nav-btn {
+      display: none;
+  }
+  footer {
+      flex-direction: column;
+      height: auto;
+      width: 100vw;
+      padding: 30px;
+
+  }
+.about-doors {
+  flex-direction: column-reverse;
+}
+
+.about-doors img  {
+  width: 90%;
+padding: 20px; 
+}
+.about-doors {
+  width: 90%;
+  padding: 20px;
+}
+.content  {
+
+padding: 15px;
+
+}
+}
