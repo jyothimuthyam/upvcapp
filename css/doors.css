@@ -48,16 +48,7 @@
 }
 
 @media (max-width: 700px) {
-  .nav-btn {
-      display: none;
-  }
-  footer {
-      flex-direction: column;
-      height: auto;
-      width: 100vw;
-      padding: 30px;
-
-  }
+  
 .about-doors {
   flex-direction: column-reverse;
 }
